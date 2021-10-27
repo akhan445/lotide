@@ -1,14 +1,3 @@
-const assertArraysEqual = function(actualArray, expectedArray) {
-  const equalArrays = eqArrays(actualArray, expectedArray);
-
-  if (equalArrays) {
-    console.log(`✅✅✅ Assertion Passed: ${JSON.stringify(actualArray)} === ${JSON.stringify(expectedArray)}`);
-  } else {
-    console.log(`❌❌❌ Assertion Failed: ${JSON.stringify(actualArray)} !== ${JSON.stringify(expectedArray)}`);
-
-  }
-}
-
 const eqArrays = function(arr, arr2) {
   // Edge case: Not same # of elements
   if (arr.length !== arr2.length) {
@@ -22,6 +11,16 @@ const eqArrays = function(arr, arr2) {
   }
   // Looped through entire array, comaparing every element
   return true;
+};
+
+const assertArraysEqual = function(actualArray, expectedArray) {
+  const equalArrays = eqArrays(actualArray, expectedArray);
+
+  if (equalArrays) {
+    console.log(`✅✅✅ Assertion Passed: ${JSON.stringify(actualArray)} === ${JSON.stringify(expectedArray)}`);
+  } else {
+    console.log(`❌❌❌ Assertion Failed: ${JSON.stringify(actualArray)} !== ${JSON.stringify(expectedArray)}`);
+  }
 };
 
 // TESTING
