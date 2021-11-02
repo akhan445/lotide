@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@akhan445/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini clone of the npm Lodash library.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/akhan445/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Abdullah Khan (https://github.com/akhan445)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/akhan445/lotide/issues"
