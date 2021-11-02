@@ -17,20 +17,20 @@ const findKey = require('./findKey');
 const findKeyByValue = require('./findKeyByValue');
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  letterPositions: letterPositions,
-  map: map,
-  takeUntil: takeUntil,
-  without: without,
-  assertArraysEqual: assertArraysEqual,
-  assertEqual: assertEqual,
-  assertObjectsEqual: assertObjectsEqual,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  eqArrays: eqArrays,  
-  eqObject: eqObjects,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue
+  head,
+  tail,
+  middle,
+  letterPositions,
+  map,
+  takeUntil,
+  without,
+  assertArraysEqual,
+  assertEqual,
+  assertObjectsEqual,
+  countLetters,
+  countOnly,
+  eqArrays,
+  eqObjects,
+  findKey,
+  findKeyByValue
 };
